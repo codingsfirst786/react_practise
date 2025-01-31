@@ -1,0 +1,33 @@
+/* h1{
+    color: green;
+}
+p{
+    color: white;
+}
+.main{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+}
+.parent{
+    display: flex;
+} */
+
+.red{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    height: auto;
+    width: 30%;
+}
+.black{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    height: auto;
+    width: 30%;
+}
