@@ -43,3 +43,114 @@ margin-top: 40px;
     padding: 15px;
    
 }
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 70px;
+    background-color: rgb(6, 83, 197);
+    color: white;
+    padding: 10px;
+    }
+    nav{
+        display: flex;
+        /* justify-content: center; */
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    nav h1{
+        font-size: 28px;
+    }
+    nav ul li{
+        display: inline;
+        padding: 20px ;
+        margin: 10px;
+     
+    }
+    nav button{
+        height: 40px;
+        width: 100px;
+        /* padding: 10px; */
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+    }
+    .website{
+        height: 90vh;
+        width: 80%;
+        /* background-color: rgba(117, 115, 115, 0.749); */
+        margin: auto;
+        display: flex;
+        gap: 15px;
+    }
+    .Content1{
+        height: 60vh;
+        width: 80%;
+        padding-bottom: 70px;
+       
+    }
+    .wordcounter{
+        height: 10vh;
+        width: 100%;
+        background-color:rgba(27, 122, 190, 0.406);
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        }
+    .wordcounter h1{
+        padding: 10px;
+    }
+    .content{
+        height: 40vh;
+        width: 100%;
+        padding-bottom: 70px;
+        /* background-color: rgba(117, 115, 115, 0.491); */
+        
+    }
+    .contentitems{
+        height: 40vh;
+        width: 100%;
+        background-color: white;
+        /* border: 2px solid rgb(8, 123, 223); */
+        
+    }
+    .contentitems button{
+        height: 40px;
+        width: 130px;
+        /* padding: 10px; */
+        background-color:rgb(14, 126, 223);
+        border: none;
+        padding: 10px 0px;
+        color: white;
+        border-radius: 10px;
+        margin-right: 10px;
+        
+    }
+    textarea{
+        height: 30vh;
+        width: 99%;
+        background-color: white;
+        border: 2px solid rgb(8, 123, 223);
+       
+        
+    }
+    .content-item{
+height: 10vh;
+width: 100%;
+background-color:rgba(173, 170, 170, 0.749);
+border: 1px solid grey;
+/* background-color: red; */
+margin-top: 10px;
+
+    }
+    .sidebar{
+        margin-top: 10px;
+        height: 75%;
+        width: 30%;
+      background-color:rgba(173, 170, 170, 0.749);
+      border: 2px solid grey;
+      font-size: 34px;
+      padding: 10px;
+    }

@@ -4,8 +4,13 @@
 // import Use from "./practise/Usestate";
 // import Ahsan from './ahsannusrat/Ahsan';
 import './App.css'
-import Sidra from './Sidra/Sidra';
+// import Form2 from './Sidra/Form2';
+// import MyForm from './Sidra/MyForm';
+// import Sidra from './Sidra/Sidra';
 // import Form from './practise/Form';
+import NavWeb from './Sidra/NavWeb'
+import WordCounter from './Sidra/WordCounter';
+
 
 function App() {
   return (
@@ -17,7 +22,12 @@ function App() {
       <State name="second"/>
       <State name="third" first="Third"/> */}
       {/* <Ahsan/> */}
-      <Sidra/>
+      {/* <Sidra/> */}
+
+      {/* <MyForm/> */}
+      {/* <Form2/> */}
+    <NavWeb/>
+    <WordCounter/>
     </>
   );
 }
