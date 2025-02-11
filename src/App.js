@@ -4,6 +4,8 @@
 // import Use from "./practise/Usestate";
 // import Ahsan from './ahsannusrat/Ahsan';
 // import './App.css'
+// import Navbar from './Farhan/Navbar'
+// import Content from './Farhan/Content'
 
 
 // import Form2 from './Sidra/Form2';
@@ -16,16 +18,18 @@
 
 // import Sidra from './Sidra/Sidra';
 // import Form from './practise/Form';
-// import Form from './Husnayn/Form';
-import Navbar from './Husnayn/HusnaynWordCounter/Navbar';
-import Body from './Husnayn/HusnaynWordCounter/Body'
+// // import Form from './Husnayn/Form';
+// import Navbar from './Husnayn/HusnaynWordCounter/Navbar';
+// import Body from './Husnayn/HusnaynWordCounter/Body'
+import Content from './Component/Farhan/Content'
+import Navbar from './Component/Farhan/Navbar'
 
 
 function App() {
   return (
     <>
-<Navbar home = "Home " blog ="Blog" more = "More" signout= "Signout"/>
-<Body/>
+{/* <Navbar home = "Home " blog ="Blog" more = "More" signout= "Signout"/> */}
+{/* <Body/> */}
     {/* <Form/> */}
     {/* <Form/> */}
     {/* <Use/> */}
@@ -39,7 +43,8 @@ function App() {
 
       {/* <MyForm/> */}
       {/* <Form2/> */}
-   
+    <Navbar/>
+         <Content/>
 
     </>
   );
