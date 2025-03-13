@@ -31,23 +31,10 @@ export default function Input() {
         </tr>
         ))
       }
-        
-            
-           
-           
-        
-    </tbody>
+        </tbody>
   </table>
         
-      
-      
-        
-
-      
-  
-
-
-    </div>
+  w</div>
     
     
     </>

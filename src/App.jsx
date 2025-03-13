@@ -1,5 +1,6 @@
 import "./App.css";
 import Cards from "./Mapping/Cards";
+import Navbar from "./Sidra/Navbar";
 import Input from "./Sidra/Table";
 // import About from "./Component/About";
 // import Contact from "./Component/Contact";
@@ -17,7 +18,9 @@ function App() {
         <Portfolio />
       </div> */}
       {/* <Cards/> */}
-      <Input/>
+      {/* <Input/> */}
+      <Navbar/>
+      
     </>
   );
 }

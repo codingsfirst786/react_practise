@@ -66,4 +66,26 @@ table {
   th {
     background-color: #f4f4f4;
   }
+  header {
+    padding: 10px 0px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    /* background-color: black; */
+    color: white;
+    background-color: #123;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 15px 20px;
+  }
   
