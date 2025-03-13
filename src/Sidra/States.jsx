@@ -2,7 +2,7 @@ import { useState } from 'react'
 import React from 'react'
 
 export default function States() {
-    const[value,updateValue] = useState("Welcome Here") 
+    const[value,updateValue] = useState("Hi Coders") 
     function updatedata(){
         updateValue.map(()=>array[0])
         console.log({value})
