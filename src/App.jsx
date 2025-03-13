@@ -1,6 +1,7 @@
 import "./App.css";
 import Cards from "./Mapping/Cards";
 import Navbar from "./Sidra/Navbar";
+import States from "./Sidra/States";
 import Input from "./Sidra/Table";
 // import About from "./Component/About";
 // import Contact from "./Component/Contact";
@@ -20,7 +21,7 @@ function App() {
       {/* <Cards/> */}
       {/* <Input/> */}
       <Navbar/>
-      
+      <States/>
     </>
   );
 }

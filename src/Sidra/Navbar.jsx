@@ -21,9 +21,9 @@ const Navbar = () => {
               return (
                 <li
                   key={index}
-                className={index > 2 ? "black" : "red"}>
-                  {/* <a href="#"> */}
-                  <a href="#" className="nav-link">
+                className={index == 2 ? "black" : "red"}>
+                  
+                  <a href="#">
                     {text}
                   </a>
                 </li>
