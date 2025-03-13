@@ -1,8 +1,12 @@
 import "./App.css";
-import Cards from "./Mapping/Cards";
-import Navbar from "./Sidra/Navbar";
-import States from "./Sidra/States";
-import Input from "./Sidra/Table";
+import Boot from "./Practises/Boot";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+
+// import Cards from "./Mapping/Cards";
+// import Navbar from "./Sidra/Navbar";
+// import States from "./Sidra/States";
+// import Input from "./Sidra/Table";
 // import About from "./Component/About";
 // import Contact from "./Component/Contact";
 // import Home from "./Component/Home";
@@ -10,6 +14,7 @@ import Input from "./Sidra/Table";
 function App() {
   return (
     <>
+    <Boot/>
       {/* <div className="main">
         <Home />
         <About />
@@ -20,8 +25,8 @@ function App() {
       </div> */}
       {/* <Cards/> */}
       {/* <Input/> */}
-      <Navbar/>
-      <States/>
+      {/* <Navbar/>
+      <States/> */}
     </>
   );
 }

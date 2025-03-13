@@ -50,7 +50,7 @@ h1{
     margin: auto;
     padding: 20px;
     margin-top: 20px;
-    /* text-align: center; */
+    text-align: center;
 }
 table {
     width: 100%;
@@ -81,7 +81,7 @@ table {
   }
   nav ul li a {
     text-decoration: none;
-    /* background-color: black; */
+    background-color: black;
     color: white;
     background-color: #123;
     border-radius: 20px;
