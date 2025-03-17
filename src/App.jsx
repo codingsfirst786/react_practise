@@ -1,7 +1,11 @@
 import "./App.css";
-import Boot from "./Practises/Boot";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
+// import Boot from "./Practises/Boot";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/js/bootstrap.min.js";
+// import Secondassig from "./Sidra/Secondassig";
+// import Component2 from "./Sidra/Component2";
+import Carosel from "./Sidra/Carosel";
+import Myassignment from "./Sidra/Myassignment";
 
 // import Cards from "./Mapping/Cards";
 // import Navbar from "./Sidra/Navbar";
@@ -12,9 +16,14 @@ import "bootstrap/dist/js/bootstrap.min.js";
 // import Home from "./Component/Home";
 // import Portfolio from "./Component/Portfolio";
 function App() {
+  
   return (
     <>
-    <Boot/>
+    {/* <Boot/> */}
+     {/* <Secondassig/> */}
+     {/* <Component2/>  */}
+     <Myassignment/>
+    {/* <Carosel/> */}
       {/* <div className="main">
         <Home />
         <About />

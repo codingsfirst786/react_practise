@@ -3,7 +3,7 @@ body{
     padding: 0px;
 }
 /* This is the styling of card file */
-.main{
+/* .main{
     height: auto;
     padding: 10px 20px;
     background-color: #123;
@@ -36,14 +36,14 @@ body{
     background-color: black;
     color: white;
     border-radius: 20px;
-}
+} */
 
 /*Input file styling */
-h1{
+/* h1{
     text-align: center;
-}
+} */
 
-.parent{
+/* .parent{
     background-color: rgba(119, 119, 172, 0.336);
     height: auto;
     width: 50%;
@@ -87,5 +87,108 @@ table {
     border-radius: 20px;
     cursor: pointer;
     padding: 15px 20px;
+  } */
+  .sidebar{
+    height: 100vh;
+    width: 20%;
+    background-color:rgba(37, 37, 44, 0.941);
+    color: white;
+    text-align: center;
   }
+  .dashboard{
+    background-color:rgba(81, 79, 79, 0.553);
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+    margin-top: 20px;
+  }
+  .theme{
+    height: 20%;
+    /* width: 100%; */
+    /* background-color: aqua; */
+    text-align: start;
+    padding: 20px 30px;
+  }.rows{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .components{
+    height: auto;
+    /* width: 100%; */
+    /* background-color: red; */
+    text-align: start;
+    padding: 20px 30px;
+  }.typography{
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .map{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }.notify{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .text{
+    background-color: aqua;
+    margin: auto;
+    height: 50vh;
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+    
+  }
+  .row{
+    height: auto;
+    width: 100%;
+    /* background-color: aquamarine; */
+    /* margin: auto;   */
+  }
+
+  .div1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 3px;
+    text-align: center;
+  }.div2{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 3px;
+    text-align: center;
+
+  }.div3{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 3px;
+    text-align: center;
+
+  }.div4{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 3px;
+    text-align: center;
+
+  }
+
+  
+
+
+
+
   
