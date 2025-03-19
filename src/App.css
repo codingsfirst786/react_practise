@@ -185,6 +185,12 @@ table {
     text-align: center;
 
   }
+  .home{
+    height: auto;
+    width: 80%;
+    background-color: blue;
+    margin: auto;
+  }
 
   
 
